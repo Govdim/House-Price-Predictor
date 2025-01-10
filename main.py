@@ -25,7 +25,7 @@ model = joblib.load('xgb.joblib')
 scaler = joblib.load('scaler.joblib')
 
 # Создание бота
-TOKEN = '7999237691:AAHv6HrVRE19Cz1bORW4tRkUncbL8MgPQ-s'
+TOKEN = 'TOKEN'
 bot = telebot.TeleBot(TOKEN)
 
 # Диапазоны допустимых значений для признаков
